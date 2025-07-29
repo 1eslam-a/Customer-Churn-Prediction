@@ -2,11 +2,16 @@ import streamlit as st
 import pandas as pd
 import joblib
 import time
+import os
+
+
 
 # Load model
-pipeline = joblib.load("fraud_model.pkl")
-model_columns = joblib.load("model_columns.pkl")
-target_encoder = joblib.load("target_encoder.pkl")
+BASE_DIR = os.path.dirname(__file__)
+
+pipeline = joblib.load(os.path.join(BASE_DIR, "fraud_model.pkl"))
+model_columns = joblib.load(os.path.join(BASE_DIR, "model_columns.pkl"))
+target_encoder = joblib.load(os.path.join(BASE_DIR, "target_encoder.pkl"))
 
 # Page config
 st.set_page_config(page_title="Churn Insight Predictor", layout="wide")
