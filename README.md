@@ -63,5 +63,5 @@ The dataset is a telecom customer dataset containing features like:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/churn-prediction-pipeline.git
-   cd churn-prediction-pipeline
+   git clone https://github.com/1eslam-a/Customer-Churn-Prediction.git
+   cd Customer-Churn-Prediction
