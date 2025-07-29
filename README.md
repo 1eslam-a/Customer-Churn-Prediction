@@ -9,7 +9,14 @@ A complete end-to-end machine learning pipeline to predict telecom customer chur
 Customer churn is a critical business problem in telecom and subscription-based industries. This project builds a robust machine learning pipeline to predict if a customer is likely to churn based on historical behavior and subscription details.
 
 ---
+## 🎥 Demo Video
+📺 Watch the demo here: 
 
+
+https://github.com/user-attachments/assets/da75144a-3364-4c8f-8942-a74f72c30bf7
+
+
+---
 ## 🚀 Features
 
 - Data cleaning and preprocessing
