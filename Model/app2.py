@@ -4,9 +4,9 @@ import joblib
 import time
 
 # Load model
-pipeline = joblib.load("../Model/fraud_model.pkl")
-model_columns = joblib.load("../Model/model_columns.pkl")
-target_encoder = joblib.load("../Model/target_encoder.pkl")
+pipeline = joblib.load("fraud_model.pkl")
+model_columns = joblib.load("model_columns.pkl")
+target_encoder = joblib.load("target_encoder.pkl")
 
 # Page config
 st.set_page_config(page_title="Churn Insight Predictor", layout="wide")
